@@ -1,0 +1,20 @@
+title: "Your Name - Links in Bio"
+description: "Modern, responsive links in bio website"
+url: "https://yourusername.github.io"
+baseurl: "/linkbio"
+
+# GitHub Pages settings
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# SEO settings
+author: "Your Name"
+twitter:
+  username: "yourusername"
+social:
+  name: "Your Name"
+  links:
+    - "https://twitter.com/yourusername"
+    - "https://instagram.com/yourusername"
+    - "https://github.com/yourusername"
