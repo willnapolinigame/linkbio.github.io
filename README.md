@@ -2,7 +2,7 @@
 
 > A beautiful, modern alternative to Linktree with glassmorphism design, smooth animations, and mobile-first approach.
 
-![LinkBio Preview](https://via.placeholder.com/800x400/00FFED/FFFFFF?text=LinkBio+Preview)
+![LinkBio Preview](https://github.com/willnapolini/linkbio/blob/main/assets/LinkBio%20Preview.png?raw=true)
 
 ## ✨ Features
 
