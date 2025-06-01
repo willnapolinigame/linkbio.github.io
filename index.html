@@ -3,43 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Will Napolini - Digital Creator Portfolio">
-    <meta name="keywords" content="digital creator, portfolio, web developer">
-    <meta name="author" content="Will Napolini">
     <title>Will Napolini - Digital Creator</title>
-    
-    <!-- Preconnect to external domains for better performance -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
-    <!-- Import stylesheets -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-    
-    <!-- Favicon (add your own favicon files) -->
-    <!-- <link rel="icon" type="image/x-icon" href="/favicon.ico"> -->
 </head>
 <body>
-    <!-- Floating background orbs -->
     <div class="floating-orb orb-1"></div>
     <div class="floating-orb orb-2"></div>
     <div class="floating-orb orb-3"></div>
 
     <div class="container">
-        <!-- Profile Section -->
         <div class="profile-section">
             <img class="profile-image" src="https://pbs.twimg.com/media/GppW-XPXUAAzUhs?format=png&name=small" alt="Profile photo of Will Napolini">
             <h1 class="profile-name">Will Napolini</h1>
-            <p class="profile-bio">Mindset • Skillset • Toolset<br></p>
+            <p class="profile-bio">Mindset • Skillset • Toolset</p>
         </div>
 
-        <!-- Social Media Links -->
         <nav class="social-section" aria-label="Social media links">
             <a href="#" class="social-item" aria-label="Telegram">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M22.265 2.737a.893.893 0 0 0-.908-.322l-19.013 7.33a.892.892 0 0 0-.093 1.585l4.839 2.934a.892.892 0 0 0 .966.033l9.07-5.94a.446.446 0 0 1 .604.094.446.446 0 0 1-.094.604l-9.07 5.94a.892.892 0 0 0-.322.717l-.517 4.104a.892.892 0 0 0 1.326.836l4.839-3.573 5.008 3.906a.892.892 0 0 0 1.403-.375l3.573-17.013a.892.892 0 0 0-.322-.908z"/>
                 </svg>
-            </a>            
+            </a>
             <a href="#" class="social-item" aria-label="Twitter">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
@@ -57,7 +41,6 @@
             </a>
         </nav>
 
-        <!-- Main Content Grid -->
         <main class="bento-grid">
             <a href="https://www.wikipedia.org" class="bento-item pulse-element">
                 <div class="bento-icon">🇺🇸</div>
@@ -121,7 +104,6 @@
             </a>
         </main>
 
-        <!-- Footer -->
         <footer class="footer">
             <p>Made by Will</p>
             <a href="#" class="github-link" aria-label="View source code on GitHub">
@@ -132,8 +114,9 @@
         </footer>
     </div>
 
-    <!-- Load JavaScript files -->
-    <script src="js/utils.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="js/fileLoader.js"></script>
+    <script src="js/interactions.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
