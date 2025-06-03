@@ -21,7 +21,7 @@
 1. **Click "Use this template"** button at the top of this repository
 2. **Name your repository** (e.g., `my-linkbio` or `links`)
 3. **Make it public** (required for free GitHub Pages)
-4. **Go to Settings** → **Pages** → Select **Deploy from branch** → Choose **main**
+4. **Go to Settings** → **Pages** → Select **Github Actions** → Define **GitHub Pages Jekyll** → Press **Configure**
 5. **Your site is live!** Visit `https://yourusername.github.io/repository-name`
 
 ### Method 2: Fork and Customize
